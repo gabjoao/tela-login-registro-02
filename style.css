@@ -51,6 +51,7 @@ aside{
     font-weight: 250;
     line-height: 18px; /* 112.5% */
     letter-spacing: 2.56px;
+    padding-top: 10px;
 }
 
 .criar h1{
@@ -122,7 +123,7 @@ aside{
     text-align: center;
     text-shadow: -11px 27px 8px rgba(0, 0, 0, 0.00), -7px 18px 8px rgba(0, 0, 0, 0.03), -4px 10px 6px rgba(0, 0, 0, 0.10), -2px 4px 5px rgba(0, 0, 0, 0.17), 0px 1px 3px rgba(0, 0, 0, 0.20);
     font-family: Poppins;
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 600;
     line-height: 58px; /* 145% */
@@ -139,12 +140,12 @@ aside{
     font-weight: 100;
     line-height: 31px; /* 206.667% */
     letter-spacing: 4.35px;
+    padding-bottom: 10px;
 }
 
 #bg1, #bg2{
     position: absolute;
     opacity: 5%;
-    width: 4%;
     height: 18%;
 
 }
@@ -175,6 +176,7 @@ aside{
     flex-direction: column;
     align-items: center;
     gap: 40px;
+    padding-top: 30px;
 }
 
 .login h1{
@@ -200,8 +202,8 @@ aside{
 }
 
 .login .links .link{
-    width: 65px;
-    height: 65px;
+    width: 55px;
+    height: 55px;
     background-color: #1A3B53;
     border-radius: 80%;
     filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.10)) drop-shadow(0px 7px 7px rgba(0, 0, 0, 0.09)) drop-shadow(0px 17px 10px rgba(0, 0, 0, 0.05)) drop-shadow(0px 30px 12px rgba(0, 0, 0, 0.01)) drop-shadow(0px 47px 13px rgba(0, 0, 0, 0.00));
@@ -246,7 +248,6 @@ aside{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-top: 5%;
 }
 
 form div{
@@ -333,4 +334,25 @@ form input[type="submit"]{
     font-weight: 200;
     line-height: 31px; /* 206.667% */
     letter-spacing: 4.35px;
+    padding-bottom: 10px;
+}
+
+#bg3, #bg4{
+    position: absolute;
+    height: 20%;
+    opacity: 30%;
+
+}
+
+#bg3{
+    right: 0;
+    transform: rotateX(180deg);
+
+}
+
+#bg4{
+    bottom: 0;
+    left: 50%;
+    transform: rotateY(180deg);
+
 }
