@@ -39,35 +39,50 @@
     <aside class="login">
         <img src="" alt="">
 
-        <h1>Fazer login</h1>
+        <div class="content1">
+            <h1>Fazer login</h1>
 
-        <div class="links">
-            <div id="instagram"></div>
-            <div id="google"></div>
-            <div id="github"></div>
-            <div id="facebook"></div>
+            <div class="links">
+                <div class="link">
+                    <img src="/assets/instagram.png" alt="">
+                </div>
+                <div class="link">
+                    <img src="/assets/google.png" alt="">
+                </div>
+                <div class="link" id="github">
+                    <img src="/assets/github.png" alt="">
+                </div>
+                <div class="link" id="facebook">
+                    <img src="/assets/facebook.png" alt="">
+                </div>
+            </div>
+    
+            <div class="linha">
+                <div></div>
+                <p>ou use seu e-mail:</p>
+                <div></div>
+            </div>
         </div>
-
-        <div class="linha">
-            <div></div>
-            <p>ou use seu e-mail:</p>
-            <div></div>
-        </div>
+    
 
         <form action="">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" required>
-
-            <label for="senha">Senha</label>
-            <div class="senha-input">
-                <input type="password" name="senha" id="senha" required>
-                <img src="" alt="">
+            <div class="email">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required>
             </div>
             
-            <a href="">
-                <u><p>Esqueci minha senha</p></u> 
-            </a>
-            
+            <div class="senha">
+                <label for="senha">Senha</label>
+                <div class="senha-input">
+                    <input type="password" name="senha" id="senha" required>
+                    <img src="/assets/password.png" alt="">
+                </div>
+
+                <a href="">
+                    <u><p>Esqueci minha senha</p></u> 
+                </a>
+            </div>
+
             <input id="login-btn" type="submit" value="Login">
 
         </form>
